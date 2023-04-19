@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(0, 128, 2);
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family:'tiltprism';
+    src: url('TiltPrism-Regular-VariableFont_XROT\,YROT.ttf');
+}
+
+div.details{
+    color: rgb(255, 255, 255);
+}
+
+div.Text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 90px;
+    color: red;
+    font-family:'tiltprism';
+}
+
+div.subtitle{
+    font-size:50px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+    
+div.subtitle2{
+    font-size:50px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.subtitle3{
+    font-size:50px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.subtitle4{
+    font-size:50px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
