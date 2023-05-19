@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(23, 97, 33);
+    font-size: 36px;
+    margin: 0px;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col {
+    outline: 2px solid blueviolet;
+    width: 33.333%;
+    height: 1000px;
+    padding: 5px;
+}
+
+div.textred{
+    color: red;
+}
+
+
+div.width33{
+    width: 33.333%;
+    height: 400px;
+}
+
+div.width66{
+    width: 66.666%;
+}
+
+div.width25{
+    width: 25%;
+}
+
+div.width20{
+    width: 20%;
+}
+
+div.width60{
+    width: 60%;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width75{
+    width: 75%;
+}
+
+div.menu{
+    background-color: green;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    transition: 2s;
+    font-size: 100px;
+}
+
+div.menu:hover{
+    background-color: rgb(212, 27, 27);
+    border-radius: 100px;
+    transition: 2s;
+}
+
+img {
+    width: 100%;
+}
+
+div.intro{
+    margin-top: 50px;
+}
+
+div.snooker img{
+    animation: circle 2s infinite alternate linear;
+}
+
+@keyframes circle {
+    0% {
+        border-radius: 0%;
+        width: 0%;
+    }
+    100%{
+        border-radius: 100%;
+        width: 100%;
+    }
+}
+
+div.hero {
+    background-image: url("ronnie\ o\ sullivan1.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: 100px;
+    
+}
+
+div.hero:hover {
+    background-image: url("ronnie\ o\ sullivan\ 2.jpeg");  
+    background-position: center;
+    background-size: contain;
+}
+
+div.hero1 {
+    background-image: url("mark\ selby\ 1.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: left;
+    margin-left: 10px;
+    margin-top: 100px;
+    
+}
+
+div.hero1:hover {
+    background-image: url("mark\ selby\ 2.jpeg");  
+    background-position: left;
+    background-size: contain;}
+
+    div.hero2 {
+        background-image: url("mark\ allen1.jpeg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 500px;
+        background-position: center;
+        margin-left: 10px;
+        margin-top: 100px;
+        
+    }
+    
+    div.hero2:hover {
+        background-image: url("mark\ allen2.jpeg");  
+        background-position: center;
+        background-size: contain;}
