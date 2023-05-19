@@ -95,6 +95,11 @@ div.snooker img{
     }
 }
 
+div.intro1 {
+    font-size: 20px;
+    margin-top: 50px;
+
+}
 div.hero {
     background-image: url("ronnie\ o\ sullivan1.jpeg");
     background-repeat: no-repeat;
@@ -117,7 +122,7 @@ div.hero1 {
     background-repeat: no-repeat;
     background-size: contain;
     height: 500px;
-    background-position: left;
+    background-position: center;
     margin-left: 10px;
     margin-top: 100px;
     
@@ -125,7 +130,7 @@ div.hero1 {
 
 div.hero1:hover {
     background-image: url("mark\ selby\ 2.jpeg");  
-    background-position: left;
+    background-position: center;
     background-size: contain;}
 
     div.hero2 {
