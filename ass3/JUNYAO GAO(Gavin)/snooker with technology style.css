@@ -16,6 +16,11 @@ div.intro{
 }
 
 @font-face{
+  font-family: 'laser';
+  src: url('laser.regular.otf');
+}
+
+@font-face{
   font-family: 'star';
   src:url('starburst-font/Starburst-Rpzl.ttf')}
 
@@ -126,11 +131,32 @@ div.rightcorner{
   div.name{
     font-size: 40px;
     font-family: 'star';
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
 
   div.video{
     margin-left: 550px;
 
+  }
+
+  div.visual{
+    font-family: 'laser';
+    font-size: 60px;
+margin-bottom: 40px;
+  }
+
+  div.visualcontent{
+    font-family: 'laser';
+    font-size: 30px;
+  }
+
+  div.container{
+    background-color: green;
+  }
+
+  div.text1{
+font-family: 'laser';
+font-size: 30px;
+align-content: baseline;
   }

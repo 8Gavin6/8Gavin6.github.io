@@ -12,6 +12,11 @@ div.intro{
 }
 
 @font-face{
+  font-family: 'laser';
+  src: url('laser.regular.otf');
+}
+
+@font-face{
   font-family: 'star';
   src:url('starburst-font/Starburst-Rpzl.ttf')}
 
@@ -116,8 +121,8 @@ a:hover {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    margin-bottom:40px;
-    margin-top: 30px;
+
+    margin-top: 60px;
   }
 
   div.name{
@@ -126,7 +131,33 @@ a:hover {
     margin-bottom: 80px;
   }
 
+
+  div.visual{
+    font-family: 'laser';
+    font-size: 60px;
+margin-bottom: 40px;
+  }
+
+  div.visualcontent{
+    font-family: 'laser';
+    font-size: 30px;
+  }
+
   div.video{
     margin-left: 350px;
 
+  }
+
+  div.container{
+    background-color: green;
+  }
+
+  div.text1{
+font-family: 'laser';
+font-size: 30px;
+align-content: baseline;
+  }
+
+  div.visualcontent{
+    margin-bottom: 30px;
   }
