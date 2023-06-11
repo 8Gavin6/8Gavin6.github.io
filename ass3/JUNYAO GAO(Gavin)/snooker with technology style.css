@@ -1,6 +1,12 @@
-body{
-    background-color: aquamarine;
+
+
+body {
+  background: url(back\ ground\ 2.jpeg);
+background-size: 100%;
+background-size: cover;
+background-repeat: no-repeat;
 }
+
 
 div.intro{
     font-size: 80px;
@@ -121,4 +127,10 @@ div.rightcorner{
     font-size: 40px;
     font-family: 'star';
     margin-bottom: 80px;
+  }
+
+
+  div.video{
+    margin-left: 550px;
+
   }

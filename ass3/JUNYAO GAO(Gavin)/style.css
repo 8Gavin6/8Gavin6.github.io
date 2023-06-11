@@ -1,9 +1,16 @@
 body{
-    background-color: rgb(23, 97, 33);
     font-size: 36px;
     margin: 0px;
     font-family: 'star';
 }
+
+body {
+  background: url(laser\ background1.jpeg);
+background-size: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
 
 @font-face{
     font-family: 'star';
